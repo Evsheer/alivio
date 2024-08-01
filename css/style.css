@@ -286,7 +286,9 @@ button:hover {
 
 /*VIDEO*/
 
-.video {}
+.video {
+    margin-bottom: 120px;
+}
 
 .video_container {
     width: 1920px;
@@ -345,15 +347,145 @@ button:hover {
     height: 100%
 }
 
-.play{
+.play {
     position: relative;
     left: 406px;
     bottom: 302px;
 }
-.play img{
+
+.play img {
     width: 80px;
     height: 80px;
     display: block;
     height: 100%;
+}
+
+/*PRODUCT*/
+
+.product {
+    margin-bottom: 242px;
+}
+
+.product_container {
+    width: 1370px;
+    height: 648px;
+    margin: 0 auto;
+}
+
+.product_inner {
+    display: flex;
+    align-items: center;
+}
+
+.product_image {
+    width: 638px;
+    height: 573px;
+    background-color: var(--color3);
+    object-fit: none;
+    margin-right: 86px;
+    border-radius: 18px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.product_image img {}
+
+.product_info {}
+
+.product_title1 {
+    font-family: var(--font3);
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--color4);
+    margin-bottom: 10px;
+}
+
+.product_title2 {
+    font-family: var(--font1);
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--color1);
+    margin-bottom: 20px;
+    width: 584px;
+    line-height: 157%;
+
+}
+
+.product_text {
+    font-family: var(--font3);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--color8);
+    margin-bottom: 40px;
+    width: 530px;
+    line-height: 157%;
+}
+
+.product_button {
+    width: 225px;
+    height: 65px;
+}
+
+.product_card {
+    width: 296px;
+    height: 296px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 40px 0 rgb(0, 0, 0, 0.25);
+    position: relative;
+    bottom: 200px;
+    right: 60px;
+    z-index: 5;
+    background-color: var(--color2);
+}
+
+.product_card_title1 {
+    font-family: var(--font3);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.product_card_line {
+    width: 110px;
+    height: 1px;
+    background-color: var(--color8);
+    margin-bottom: 13px;
+}
+
+
+
+.product_card_img {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: var(--color3);
+    margin-bottom: 10px;
+}
+
+.product_card_name {
+    font-family: var(--font3);
+    font-weight: 400;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
+.product_card_title2 {
+    font-family: var(--font1);
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.product_list li {
+    list-style-type: disc;
+    font-family: var(--font3);
+    font-weight: 400;
+    font-size: 10px; 
+    line-height: 30px;
   
 }
+
